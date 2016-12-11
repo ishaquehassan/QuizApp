@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="quizapp.udacty.cyberavanza.com.quizapp.QuizApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Android Development Quiz"
+                android:gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1. What Layout Should we use for displaying text?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q1_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q1_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"/>
+                <RadioButton
+                    android:id="@+id/q1_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ImageView"/>
+                <RadioButton
+                    android:id="@+id/q1_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2. What is Margin?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q2_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q2_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spacing Outside"/>
+                <RadioButton
+                    android:id="@+id/q2_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spacing Inside"/>
+                <RadioButton
+                    android:id="@+id/q2_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None Of The Above"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q3. What is Padding?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q3_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q3_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spacing Outside"/>
+                <RadioButton
+                    android:id="@+id/q3_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spacing Inside"/>
+                <RadioButton
+                    android:id="@+id/q3_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None Of The Above"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q4. What are valid orientations for LinearLayout?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q4_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q4_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Auto"/>
+                <RadioButton
+                    android:id="@+id/q4_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vertical"/>
+                <RadioButton
+                    android:id="@+id/q4_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None Of The Above"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q5. What Layout is used for Text Input?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q5_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q5_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"/>
+                <RadioButton
+                    android:id="@+id/q5_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ImageView"/>
+                <RadioButton
+                    android:id="@+id/q5_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EditText"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q6. What attribute is used for setting Image In ImageView?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q6_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q6_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="android:image"/>
+                <RadioButton
+                    android:id="@+id/q6_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="android:src"/>
+                <RadioButton
+                    android:id="@+id/q6_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="android:set_image"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q7. What layout should we use to scroll our content?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q7_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q7_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LinearLayout"/>
+                <RadioButton
+                    android:id="@+id/q7_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FrameLayout"/>
+                <RadioButton
+                    android:id="@+id/q7_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q8. How we enable access of Internet In out app?"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/q8_answers"
+                android:layout_marginBottom="20dp">
+                <RadioButton
+                    android:id="@+id/q8_ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="by declaring android.permission.INTERNET in our manifest"/>
+                <RadioButton
+                    android:id="@+id/q8_ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We do not need to do anything"/>
+                <RadioButton
+                    android:id="@+id/q8_ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None Of The Above"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/showResultBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
